@@ -1,8 +1,7 @@
-# Algorithm
+# &#128187; Algorithm
 알고리즘 문제 풀이 저장
 
-# Commit message
-
+# &#10004; Commit message
 ### type : [#issueNumber -]{출처}{난이도}{제목}
 * issueNumber : Repo Issues(알고리즘 분류)
 
