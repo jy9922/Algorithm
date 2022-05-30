@@ -71,6 +71,7 @@ def bfs(rx, ry, bx, by):
     count += 1
     print(count)
   print(-1)
+  
 bfs(rx, ry, bx, by)
       
           
