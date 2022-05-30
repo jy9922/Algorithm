@@ -17,6 +17,7 @@ def bfs(day, cost):
   while q:
     days, cost = q.popleft()
     x = days + graph[days-1][0]
+    
     if x <= n+1:
       cost_box.append(pay)
       for i in range(x, n+1):
