@@ -72,7 +72,7 @@ def bfs(rx, ry, bx, by):
     print(count)
   print(-1)
   
-bfs(rx, ry, bx, by)
+bfs(rx, ry, bx, by) // Á¤´ä
       
           
           
