@@ -14,7 +14,7 @@ for i in range(m):
 
 for j in graph:
     j.sort(reverse=True)
-
+    #오름차순
 
 def bfs(graph, start):
     cnt = 1

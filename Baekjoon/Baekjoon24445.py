@@ -14,6 +14,7 @@ for i in range(m):
 
 for j in graph:
     j.sort(reverse=True)
+    #내림차순
 
 
 def bfs(graph, start):
