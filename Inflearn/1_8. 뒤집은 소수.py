@@ -11,10 +11,11 @@ def reverse(x):
 
 def isPrime(x):
   result = True
+  if x == 1:
+    return False
   for i in range(2, x):
     if x % i == 0:
-      result = False
-      break
+      return False
   return result
 
       
