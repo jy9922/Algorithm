@@ -2,14 +2,16 @@ n, m = map(int, input().split())
 a = list(map(int, input().split()))
 
 a.sort()
+lt = 0
+rt = len(a)
 
-idx = len(a)//2 - 1
-
-while True:
-  if a[idx] == m:
-    print(idx+1)
+while lt<=rt: 
+  mid = (lt + rt) // 2
+  if a[mid] == m:
+    print(mid+1)
     break
-  elif a[idx] < m:
-    idx += 1
+  elif a[mid] < m:
+    lt = mid + 1
   else:
-    idx -= 1
+    rt = mid - 1
+  
